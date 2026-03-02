@@ -28,7 +28,7 @@ This GitHub repository contains code for a demo on agentic coding for science. T
    - Run the setup cells to install the necessary packages (`jax[tpu]`, `flax`, `tensorflow`, `jaxlib`) and restart the kernel when prompted.
    - The notebook will automatically mount your Google Drive to save data and output models.
 
- 5. **Understand codebase and iterate with Gemini Code Assist and Agent Manager**:
+5. **Understand codebase and iterate with Gemini Code Assist and Agent Manager**:
    - Use Gemini Code Assist on the left panel to tag the notebook and ask questions about it.
    - Inside the notebook, use `cmd + I` (for mac) or `ctrl + I` (for windows) in individual cells to add additional documentation where unclear.
    - Use the Agent Manager (top right) to ask the agent to come up with a plan to create a new, separate version of demo_notebook.ipynb that uses an advanced architecture from bonsai, keeping in mind that the Google Colab TPU kernel can only see inside the Google Drive folder and that bonsai was git cloned in that folder earlier.
