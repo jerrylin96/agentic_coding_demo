@@ -22,7 +22,7 @@ This GitHub repository contains code for a demo on agentic coding for science. T
    agy <desired-path-here>
    ```
 
-4. **Run demo_notebook.ipynb on TPU**:
+4. **Run `demo_notebook.ipynb` on TPU**:
    - Open `demo_notebook.ipynb` within Antigravity.
    - Ensure the Colab session is connected to a Google Colab TPU runtime.
    - Run the setup cells to install the necessary packages (`jax[tpu]`, `flax`, `tensorflow`, `jaxlib`) and restart the kernel when prompted.
@@ -31,7 +31,7 @@ This GitHub repository contains code for a demo on agentic coding for science. T
 5. **Understand codebase and iterate with Gemini Code Assist and Agent Manager**:
    - Use Gemini Code Assist on the left panel to tag the notebook and ask questions about it.
    - Inside the notebook, use `cmd + I` (for mac) or `ctrl + I` (for windows) in individual cells to add additional documentation where unclear.
-   - Use the Agent Manager (top right) to ask the agent to come up with a plan to create a new, separate version of demo_notebook.ipynb that uses an advanced architecture from bonsai, keeping in mind that the Google Colab TPU kernel can only see inside the Google Drive folder and that bonsai was git cloned in that folder earlier.
+   - Use the Agent Manager (top right) to ask the agent to come up with a plan to create a new, separate version of `demo_notebook.ipynb` that uses an advanced architecture from bonsai, keeping in mind that the Google Colab TPU kernel can only see inside the Google Drive folder and that bonsai was git cloned in that folder earlier.
    - Comment on the plan where necessary and allow the agent to execute once you are aligned.
    - Continue to iterate as needed.
 
